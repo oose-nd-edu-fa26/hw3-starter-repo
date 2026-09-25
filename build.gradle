@@ -16,7 +16,7 @@ test {
 
 
 jar {
-    archivesBaseName = "Apportionment"
+    archiveBaseName = "Apportionment"
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     manifest {
         attributes "Main-class": "edu.virginia.sde.hw3.Main"
